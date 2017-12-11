@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-11T18:44:37.360656800Z</date>
+  <millis>1513017877360</millis>
+  <nanos>656800</nanos>
+  <sequence>0</sequence>
+  <logger>log.Main</logger>
+  <level>WARNING</level>
+  <class>log.Main</class>
+  <method>divide</method>
+  <thread>1</thread>
+  <message>x = 0; exception may occur</message>
+</record>
+<record>
+  <date>2017-12-11T18:44:37.462427600Z</date>
+  <millis>1513017877462</millis>
+  <nanos>427600</nanos>
+  <sequence>1</sequence>
+  <logger>log.Main</logger>
+  <level>SEVERE</level>
+  <class>log.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>/ by zero</message>
+  <exception>
+    <message>java.lang.ArithmeticException: / by zero</message>
+    <frame>
+      <class>log.Main</class>
+      <method>divide</method>
+      <line>32</line>
+    </frame>
+    <frame>
+      <class>log.Main</class>
+      <method>main</method>
+      <line>20</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2017-12-11T18:44:37.465936900Z</date>
+  <millis>1513017877465</millis>
+  <nanos>936900</nanos>
+  <sequence>2</sequence>
+  <logger>log.Main</logger>
+  <level>INFO</level>
+  <class>log.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>result: 4</message>
+</record>
+<record>
+  <date>2017-12-11T18:44:37.466939300Z</date>
+  <millis>1513017877466</millis>
+  <nanos>939300</nanos>
+  <sequence>3</sequence>
+  <logger>log.Main</logger>
+  <level>INFO</level>
+  <class>log.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>result: 2</message>
+</record>
+<record>
+  <date>2017-12-11T18:44:37.467440800Z</date>
+  <millis>1513017877467</millis>
+  <nanos>440800</nanos>
+  <sequence>4</sequence>
+  <logger>log.Main</logger>
+  <level>INFO</level>
+  <class>log.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>result: 1</message>
+</record>
+<record>
+  <date>2017-12-11T18:44:37.468443300Z</date>
+  <millis>1513017877468</millis>
+  <nanos>443300</nanos>
+  <sequence>5</sequence>
+  <logger>log.Main</logger>
+  <level>INFO</level>
+  <class>log.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>result: 1</message>
+</record>
+</log>
