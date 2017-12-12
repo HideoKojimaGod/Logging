@@ -1,0 +1,16 @@
+дек. 12, 2017 11:29:43 ДП log.Main divide
+WARNING: x = 0; exception may occur
+дек. 12, 2017 11:29:43 ДП log.Main main
+SEVERE: / by zero
+java.lang.ArithmeticException: / by zero
+	at log.Main.divide(Main.java:30)
+	at log.Main.main(Main.java:18)
+
+дек. 12, 2017 11:29:43 ДП log.Main main
+INFO: result: 4
+дек. 12, 2017 11:29:43 ДП log.Main main
+INFO: result: 2
+дек. 12, 2017 11:29:43 ДП log.Main main
+INFO: result: 1
+дек. 12, 2017 11:29:43 ДП log.Main main
+INFO: result: 1

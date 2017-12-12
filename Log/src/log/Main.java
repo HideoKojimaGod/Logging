@@ -6,15 +6,13 @@ public class Main {
     private static final Logger logger = Logger.getLogger(Main.class.getName());
 
     public static void main(String[] args) {
-        try
-        {
-            FileHandler file = new FileHandler("log.txt");
-            logger.addHandler(file);
+        try {
+            LogManager.getLogManager().readConfiguration(
+                    Main.class.getResourceAsStream("/logging.properties"));
+        } catch (IOException e) {
+            logger.log(Level.SEVERE, "Не удалось создать лог. ", e);
         }
-        catch (IOException e)
-        {
-            logger.log(Level.SEVERE, "Не удалось создать лог.", e);
-        }
+
         for(int i = 0; i < 5; i++) {
             try {
                 logger.log(Level.INFO,"result: " + divide(i));
